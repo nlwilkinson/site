@@ -24,6 +24,7 @@ h2 {
 h3 {
     font-family: 'Merriweather', serif;
     color: #66BFBF;
+    font-size: 20px;
 }
 
 hr {
@@ -32,11 +33,11 @@ hr {
     border-left: 0;
     width: 6%;
     margin: 100px auto;
-
 }
 
 p {
     line-height: 1.5;
+    font-size: 15px;
 }
 
 a {
@@ -44,7 +45,7 @@ a {
     font-family: 'Merriweather', serif;
     margin: 10px 20px;
     text-decoration: none;
-
+    font-size: 20px;
 }
 
 a:hover {
@@ -54,10 +55,6 @@ a:hover {
 .navi {
     font-size: 0.9rem;
 }
-
-
-
-
 
 /* .container {
     margin: 100px 0 100px 0;
@@ -96,8 +93,9 @@ a:hover {
 /* Projects grid section */
 
 .projects {
-    font-family: font-family: 'Merriweather', serif;
-    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -111,11 +109,11 @@ a:hover {
   }
 
   
-  .flexbox-container {
+  /* .flexbox-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   
   .flex-item {
@@ -127,7 +125,7 @@ a:hover {
     text-align: left;
     width: 300px;
     height: 96px;
-  }
+  } */
 
   .projects p.hover {
     border: solid #66BFBF;

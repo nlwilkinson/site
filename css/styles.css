@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     font-family: 'Merriweather', serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #66BFBF;
     padding-bottom: 10px;
 }
@@ -27,12 +27,18 @@ h3 {
     font-size: 20px;
 }
 
+h6 {
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+}
+
 hr {
     border-top: 5px dotted lightgrey;
     border-bottom: 0;
     border-left: 0;
-    width: 6%;
-    margin: 100px auto;
+    width: 15%;
+    padding-bottom: 50px;
+    /* margin: 100px auto; */
 }
 
 p {
@@ -45,7 +51,7 @@ a {
     font-family: 'Merriweather', serif;
     margin: 10px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 a:hover {
@@ -55,10 +61,10 @@ a:hover {
 .navi {
     font-size: 0.9rem;
 }
-
-/* .container {
-    margin: 100px 0 100px 0;
-} */
+/* 
+ .container {
+    padding-bottom: 0px;
+}  */
 
 
 .top-container {
@@ -108,6 +114,9 @@ a:hover {
     border: solid black;
   }
 
+  .projects-header {
+      padding-bottom: 100px;
+  }
   
   /* .flexbox-container {
     display: flex;
@@ -234,6 +243,28 @@ a:hover {
   flex-wrap: wrap;
 } */
 
+/* Add the below to make the images 4 columns across, remove to have larger and straight down */
+/* Image section */
+
+.img-responsive {
+    flex: 50%;
+    max-width: 60%;
+    padding: 50px 4px;
+  
+}
+
+.td-img {
+    padding-bottom: 27px;
+}
+
+.rec-img {
+    padding-bottom: 32px;
+}
+
+.dk-img {
+    padding-bottom: 45px;
+}
+
 .projects img:hover {
     border: solid #66BFBF;
 
@@ -243,9 +274,3 @@ a:hover {
 .flower-border {
     width: 100%;
 }
-
-
-
-
-
-

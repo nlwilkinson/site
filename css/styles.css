@@ -248,9 +248,8 @@ a:hover {
 
 .img-responsive {
     flex: 50%;
-    max-width: 60%;
-    padding: 50px 4px;
-  
+    max-width: 120%;
+    padding: 50px 30px;  
 }
 
 .td-img {
